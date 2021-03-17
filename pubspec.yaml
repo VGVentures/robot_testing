@@ -1,0 +1,21 @@
+name: robot_testing
+description: Project used to showcase the robot testing pattern
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  test: any
+
+flutter:
+  uses-material-design: true
