@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:robot_testing/counter_page.dart';
 import 'package:robot_testing/login_page.dart';
+import 'package:robot_testing/scrolling_list_page.dart';
 
 void main() {
   runApp(RobotTestingApp());
@@ -38,6 +39,12 @@ class Home extends StatelessWidget {
                 title: Text('Login'),
                 trailing: Icon(Icons.chevron_right),
                 onTap: () => Navigator.of(context).push(LoginPage.route()),
+              ),
+              ListTile(
+                title: Text('Scrolling list'),
+                trailing: Icon(Icons.chevron_right),
+                onTap: () =>
+                    Navigator.of(context).push(ScrollingListPage.route()),
               ),
             ],
           ),
