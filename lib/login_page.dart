@@ -8,7 +8,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Login')),
+      appBar: AppBar(title: Text('Authentication')),
       body: Padding(
         padding: EdgeInsets.all(8),
         child: LoginForm(),
@@ -76,6 +76,7 @@ class _LoginFormState extends State<LoginForm> {
 
   void _showSnackBar(String message) {
     ScaffoldMessenger.of(context)
-        .showSnackBar(SnackBar(content: Text(message)));
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(key: Key('snackbar'), content: Text(message)));
   }
 }

@@ -21,9 +21,8 @@ class LoginRobot {
   }
 
   Future<void> checkInvalidCredentialsMessageIsShown() async {
-    final errorMessageFinder = find.text('Invalid Credentials');
+    final errorMessageFinder = find.byValueKey('snackbar');
     await driver.waitFor(errorMessageFinder);
-    expect(await driver.getText(errorMessageFinder), 'Invalid Credentials');
   }
 
   Future<void> checkWelcomeMessageIsShown(String email) async {

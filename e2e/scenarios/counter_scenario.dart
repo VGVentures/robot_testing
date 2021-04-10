@@ -21,12 +21,12 @@ void main() {
   group('Counter', () {
     test('increments the counter', () async {
       await homeRobot.navigateToCounterPage();
-      await counterRobot.validateCounter(0);
-      await counterRobot.increment();
-      await counterRobot.increment();
-      await counterRobot.increment();
-      await counterRobot.increment();
-      await counterRobot.validateCounter(4);
+      expect(await driver.getText(find.text('0')), '0');
+      await driver.tap(find.byTooltip('Increment'));
+      await driver.tap(find.byTooltip('Increment'));
+      await driver.tap(find.byTooltip('Increment'));
+      await driver.tap(find.byTooltip('Increment'));
+      expect(await driver.getText(find.text('4')), '4');
     });
   });
 }
