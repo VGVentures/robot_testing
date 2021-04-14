@@ -1,16 +1,21 @@
-# robot_testing
+# Robot Testing Pattern in Flutter
 
-A new Flutter project.
+[![Very Good Ventures](https://raw.githubusercontent.com/VeryGoodOpenSource/very_good_analysis/main/assets/vgv_logo.png)](https://verygood.ventures)
 
-## Getting Started
+Developed with 💙 by [Very Good Ventures](https://verygood.ventures) 🦄
 
-This project is a starting point for a Flutter application.
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This project showcases how to apply the Robot testing pattern to a Flutter application.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It is a demo project used for the conference [Future of Testing: Mobile](https://applitools.com/future-of-testing-mobile-north-america/)
+
+### How to run the tests
+
+```bash
+flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/counter_scenario.dart
+flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/login_scenario.dart
+flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/scrolling_list_scenario.dart
+```
