@@ -8,9 +8,9 @@ Developed with 💙 by [Very Good Ventures](https://verygood.ventures) 🦄
 
 ---
 
-This project showcases how to apply the Robot testing pattern to a Flutter application.
+This project showcases how to apply the Robot Testing pattern to a Flutter application. 
 
-It is a demo project used for the conference [Future of Testing: Mobile](https://applitools.com/future-of-testing-mobile-north-america/)
+It is a demo project used for the conference [Future of Testing: Mobile](https://applitools.com/future-of-testing-mobile-north-america/) hosted by Applitools.
 
 ### How to run the tests
 
@@ -19,3 +19,5 @@ flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/counter_scenario.dar
 flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/login_scenario.dart
 flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/scrolling_list_scenario.dart
 ```
+
+[Check out our blog](https://verygood.ventures/blog/robot-testing-in-flutter) for more about using the Robot Testing pattern in Flutter.
