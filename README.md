@@ -1,6 +1,7 @@
 # Robot Testing Pattern in Flutter
 
-[![Very Good Ventures](https://raw.githubusercontent.com/VeryGoodOpenSource/very_good_analysis/main/assets/vgv_logo.png)](https://verygood.ventures)
+[![Very Good Ventures][logo_white]][very_good_ventures_link_dark]
+[![Very Good Ventures][logo_black]][very_good_ventures_link_light]
 
 Developed with 💙 by [Very Good Ventures](https://verygood.ventures) 🦄
 
@@ -8,7 +9,7 @@ Developed with 💙 by [Very Good Ventures](https://verygood.ventures) 🦄
 
 ---
 
-This project showcases how to apply the Robot Testing pattern to a Flutter application. 
+This project showcases how to apply the Robot Testing pattern to a Flutter application.
 
 It is a demo project used for the conference [Future of Testing: Mobile](https://applitools.com/future-of-testing-mobile-north-america/) hosted by Applitools.
 
@@ -21,3 +22,8 @@ flutter drive  --target=e2e/e2e.dart --driver=e2e/scenarios/scrolling_list_scena
 ```
 
 [Check out our blog](https://verygood.ventures/blog/robot-testing-in-flutter) for more about using the Robot Testing pattern in Flutter.
+
+[logo_black]: https://raw.githubusercontent.com/VGVentures/robot_testing/main/assets/vgv_logo_black.png#gh-light-mode-only
+[logo_white]: https://raw.githubusercontent.com/VGVentures/robot_testing/main/assets/vgv_logo_white.png#gh-dark-mode-only
+[very_good_ventures_link_dark]: https://verygood.ventures/#gh-dark-mode-only
+[very_good_ventures_link_light]: https://verygood.ventures/#gh-light-mode-only
